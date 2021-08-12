@@ -8,7 +8,8 @@
    max-width: 1280px;
    height: 577px;
    margin: auto;
-   padding: 110px;
+   padding: 20px;
+   padding-top: 64px;
    background: #2C343E;
    border-radius: 10px;
 }
@@ -229,7 +230,6 @@
 @include media-max(695px){
 
    .choose__list{
-      top: 450px;
       width: 100%;
       max-width: 280px;
       flex-direction: column;
@@ -279,7 +279,7 @@
 
    .choose__box-top{
       width: 100%;
-      max-height: 280px;
+      max-height: 290px;
    }
 
    .choose__heading{
@@ -291,7 +291,6 @@
    }
 
    .choose__list{
-      top: 520px;
       left: 38px;
    }
    
@@ -299,7 +298,6 @@
 @include media-max(345px){
 
    .choose__list{
-      top: 590px;
       left: 25px;
    }
 }
