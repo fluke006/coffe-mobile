@@ -289,6 +289,17 @@
    .choose__info{
       font-size: 15px;
    }
+
+   .choose__list{
+      top: 520px;
+      left: 38px;
+   }
    
 }
+@include media-max(345px){
 
+   .choose__list{
+      top: 590px;
+      left: 25px;
+   }
+}
