@@ -82,16 +82,18 @@
 		background-image: url('../image/hero-bg-mob.jpg');
 	}
 
+   .hero__page{
+      text-align: center;
+   }
+
    .hero__heading {
 		margin-bottom: 24px;
 		font-size: 40px;
-		text-align: center;
 	}
 
 	.hero__paragraph {
 		font-size: 15px;
 		line-height: 25px;
-		text-align: center;
 	}
 
 	.hero__link {
