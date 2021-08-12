@@ -1,6 +1,6 @@
-const elHamburger = document.querySelector('.header__hamburgerbtn');
 const elHeader = document.querySelector('.header');
+const elHamburger = document.querySelector('.header__hamburgerbtn');
 
-elHamburger.addEventListener('click' , (etv)=> {
-   elHeader.classList.toggle('header--open')
-})
+elHamburger.addEventListener('click', () => {
+	elHeader.classList.toggle('header--open');
+});
