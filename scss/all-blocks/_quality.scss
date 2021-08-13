@@ -55,7 +55,7 @@
 
 
 @include media-max(1225px){
-
+   
    .quality__page{
       width: 100%;
       max-width: 480px;
@@ -64,13 +64,13 @@
 }
 
 @include media-max(1080px){
-
+   
    .quality .container::after{
       right: 40px;
       background-size: 400px 474px;
       
    }
-
+   
    .quality__page{
       width: 100%;
       max-width: 420px;
@@ -78,27 +78,27 @@
 }
 
 @include media-max(1025px){
-
+   
    .quality .container{
       padding-top: 90px;
    }
-
+   
    .quality .container::after{
       right: 30px;
       background-size: 350px 474px;
    }
-
+   
    .quality__page{
       width: 100%;
       max-width: 380px;
    }
-
+   
    .qualiyy-page__heading{
       margin: 0;
       margin-bottom: 24px;
       font-size: 32px;
    }
-
+   
    .quality-page__info{
       margin: 0;
       font-size: 15px;
@@ -106,15 +106,15 @@
 }
 
 @include media-max(960px){
- 
+   
    .quality .container{
       padding-top: 60px;
    }
-
+   
    .quality .container::after{
       right: 5px;     
    }
-
+   
    .quality__page{
       width: 100%;
       max-width: 320px;
@@ -122,8 +122,65 @@
 }
 
 @include media-max(872px){
+   
+   .quality .container{
+      padding-top: 180px;
+   }
+   
+   .quality .container::after{
+      top: -30%;
+      right: 50%;
+      transform: translateX(50%);
+      background-image: url('../image/tab_quality.png');
+      background-repeat: no-repeat;
+      background-size: 573px 320px;
+   }
+   
+   .quality__page{
+      width: 100%;
+      max-width: 540px;
+      text-align: center;
+      
+   }
+}
+
+@include media-max(520px){
+   
+   .quality .container{
+      padding-top: 120px;
+   }
+   
+   .quality .container::after{
+      top: -15%;
+      right: 30%; 
+      background-size: 280px 156px;
+   }
+   
+   .quality__page{
+      width: 100%;
+      max-width: 280px;
+   }
+}
+
+@include media-max(410px){
 
    .quality .container::after{
-      
+      right: 35%;
+   }
+
+}
+@include media-max(350px){
+
+   .quality .container::after{
+      background-size: 250px 156px;
+   }
+
+   .quality__page{
+      width: 100%;
+      max-width: 240px;
+   }
+
+   .qualiyy-page__heading{
+      font-size: 24px;
    }
 }
